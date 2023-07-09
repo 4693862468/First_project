@@ -32,6 +32,11 @@ System.out.println("After converting int to char :"+c);
 float f1 = 4.26f;
 short s = (short)f1;
 System.out.println("After converting float to short :"+s);
+
+//convert float to short (explicit) // bug 200
+float f4 = 10.27f;
+short s = (short)f4;
+System.out.println("After converting float to short :"+s);
 }
 }
 
