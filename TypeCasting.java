@@ -32,6 +32,16 @@ System.out.println("After converting int to char :"+c);
 float f1 = 4.26f;
 short s = (short)f1;
 System.out.println("After converting float to short :"+s);
+//convert int to char (explicit) bug 144
+int i4 = 100;
+char c = (char) i4;
+System.out.println("After converting int to char :"+c);
+
+//convert char to int (implicit) bug 150
+char ch = 'S';
+int i6 = ch;
+System.out.println("After converting char to int :"+i6);
+
 }
 }
 
