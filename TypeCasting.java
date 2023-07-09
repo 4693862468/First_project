@@ -33,10 +33,17 @@ float f1 = 4.26f;
 short s = (short)f1;
 System.out.println("After converting float to short :"+s);
 
+<<<<<<< Updated upstream
 //convert float to short (explicit) // bug 200
 float f4 = 10.27f;
 short s = (short)f4;
 System.out.println("After converting float to short :"+s);
+=======
+//convert int to char (explicit) // 100
+int i5 = 100;
+char c = (char) i5;
+System.out.println("After converting int to char :"+c);
+>>>>>>> Stashed changes
 }
 }
 
